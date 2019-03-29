@@ -1,0 +1,20 @@
+.Input {
+    margin-bottom: 15px;
+}
+
+.Input label {
+    margin-bottom: 3px;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+    color: rgba(0, 151, 151, 1)
+}
+
+.Input input {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    padding: 5px 0 5px 5px;
+    width: 100%;
+    outline: none;
+}

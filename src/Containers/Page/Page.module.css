@@ -1,0 +1,65 @@
+.Page {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.Header {
+    padding: 10px;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.Header > form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.Header > form > button {
+    flex: 1 0 40%;
+}
+
+.CardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%
+}
+
+.Footer {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.AttributesLabel {
+    color: rgba(0, 151, 151, 1);
+    font-weight: bold;
+}
+
+.DangerNotify {
+    color: red;
+}
+
+.TitleCards {
+    min-height: 50px;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.TitleCards > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TitleCards span {
+    font-weight: bold;
+}
